@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Download YouTube Video]
+@="Download Video from Clipboard"
+"Icon"="C:\\ytdlp-context-menu\\icon.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Download YouTube Video\command]
+@="\"C:\\ytdlp-context-menu\\YT-Downloader.bat\""
