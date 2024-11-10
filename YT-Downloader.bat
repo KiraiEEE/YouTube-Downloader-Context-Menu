@@ -7,4 +7,4 @@ for /f "tokens=*" %%i in ('powershell -command "Get-Clipboard"') do set link=%%i
 cd /d %~dp0
 
 :: Run yt-dlp with the clipboard link and download to the current location
-yt-dlp %link%
+yt-dlp -f "bv*+ba/b" %link%
